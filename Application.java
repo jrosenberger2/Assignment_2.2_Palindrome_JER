@@ -1,9 +1,8 @@
-package palindrome;
 import java.util.Scanner;
 /**
  * Application.java tests the methods of PalindromeStack.java by accepting Strings from the user
  * @author Jared Rosenberger
- * @version 9/28/22
+ * @version 11/9/22
  * Application.java
  * Fall 2022
  */
