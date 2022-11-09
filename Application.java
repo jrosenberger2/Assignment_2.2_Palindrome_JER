@@ -14,14 +14,16 @@ public class Application {
 		String userInput = "";
 		
 		while(!userInput.equals("end")) {
-		System.out.println("Input a string to see if it is a palindrome or not (type \"end\" to stop testing)");
-		userInput = keyboard.nextLine();
-		if(userInput.equals("end"))
-			System.out.println("Palindrome Testing Ended");
-		else if(testPalindrome.isPalindrome(userInput))
-			System.out.println(userInput + " is a palidrome!\n");
-		else
-			System.out.println(userInput + " is not a palindrome.\n");
+			System.out.println("Input a string to see if it is a palindrome or not (type \"end\" to stop testing)");
+			userInput = keyboard.nextLine();
+			if(userInput.equals("end"))
+				System.out.println("Palindrome Testing Ended");
+			else {
+				if(testPalindrome.isPalindrome(userInput))
+					System.out.println(userInput + " is a palidrome!\n");
+				else
+					System.out.println(userInput + " is not a palindrome.\n");
+			}
 		}//end while loop 
 		
 		keyboard.close();
