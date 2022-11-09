@@ -1,9 +1,8 @@
-package palindrome;
 import java.util.Stack;
 /**
  * PalindromeStack.java uses a stack to test if Strings given by the user are palindromes or not (ignoring case, punctuation and spaces)
  * @author Jared Rosenberger
- * @version 9/29/22
+ * @version 11/9/22
  * PalindromeStack.java
  * Fall 2022
  */
